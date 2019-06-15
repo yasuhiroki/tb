@@ -13,5 +13,5 @@ do
 done
 shift $((OPTIND - 1))
 
-sed -E "s/${delimiter:- }+/ | /g;s/^/| /;s/$/ |/g" | sed -E '1p;1s/\|[^\|]+/| --- /g'
+sed -E "s/[${delimiter:- 	}]+/ | /g;s/^/| /;s/$/ |/g" | sed -E '1p;1s/\|[^\|]+/| --- /g'
 

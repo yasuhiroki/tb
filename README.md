@@ -34,12 +34,3 @@ $ echo 'no,name\n1,marty\n2,doc\n3,biff' | tb -d,
 | 3 | biff |
 ```
 
-```bash
-$ seq 10 | paste - - | tb -d '  '
-| 1 | 2 |
-| --- | --- |
-| 3 | 4 |
-| 5 | 6 |
-| 7 | 8 |
-| 9 | 10 |
-```
