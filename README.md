@@ -6,6 +6,10 @@
 
 Download tb file as executable in your PATH dir.
 
+```bash
+$ curl https://raw.githubusercontent.com/yasuhiroki/tb/master/tb -O && chmod 755 tb
+```
+
 ## zplug
 
 ```zsh
@@ -34,3 +38,6 @@ $ echo 'no,name\n1,marty\n2,doc\n3,biff' | tb -d,
 | 3 | biff |
 ```
 
+# LICENSE
+
+[MIT](./LICENSE)
