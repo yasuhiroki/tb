@@ -18,7 +18,7 @@ zplug "yasuhiroki/tb", as:command, use:tb
 
 # Usage
 
-```bash
+```console
 $ echo 'year name\n1985 bttf\n1989 bttf2\n1990 bttf3' | tb
 | year | name |
 | --- | --- |
@@ -29,7 +29,7 @@ $ echo 'year name\n1985 bttf\n1989 bttf2\n1990 bttf3' | tb
 
 Change delimiter char when use `-d` option.
 
-```bash
+```console
 $ echo 'no,name\n1,marty\n2,doc\n3,biff' | tb -d,
 | no | name |
 | --- | --- |
